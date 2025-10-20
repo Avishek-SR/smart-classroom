@@ -1,0 +1,33 @@
+{
+  "name": "frontend",
+  "proxy": "http://localhost:5001",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.4",
+    "@mui/material": "^7.3.4",
+    "axios": "^1.12.2",
+    "firebase": "^12.4.0",
+    "qrcode.react": "^4.2.0",
+    "react-router-dom": "^7.9.4",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^5.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
